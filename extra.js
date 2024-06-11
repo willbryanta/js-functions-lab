@@ -19,3 +19,10 @@ function computeArea(width, height){
 function whoami(name, birthYear, hobby1, hobby2){
     return `Hi, my name is ${name}. I am ${birthYear - 2024} years old. My hobbies are ${hobby1} and ${hobby2}.`
 }
+
+// Exercise 4
+
+function howOldAmI(birthYear, currentYear){
+    return `You are either ${birthYear - currentYear} or ${birthYear - currentYear + 1} years old`
+}
+
