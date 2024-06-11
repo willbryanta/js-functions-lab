@@ -26,3 +26,9 @@ function howOldAmI(birthYear, currentYear){
     return `You are either ${birthYear - currentYear} or ${birthYear - currentYear + 1} years old`
 }
 
+// Exercise 5
+
+function calculateLifetimeSupply(favSnack, numSnack, currentAge, maxAge){
+    return `You will need ${(maxAge - currentAge)*numSnack*365} ${favSnack}s to last you until the ripe old age of ${maxAge}`
+
+}
