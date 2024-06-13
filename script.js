@@ -141,6 +141,11 @@ Example: calculateTip(50, 20) should return 10.
 Complete the exercise in the space below:
 */
 
+function calculateTip(bill, tipPercent){
+    return bill * tipPercent / 100
+
+}
+
 console.log('Exercise 7 Result:', calculateTip(50, 20));
 
 /*
