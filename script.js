@@ -162,6 +162,16 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 Complete the exercise in the space below:
 */
 
+function convertTemperature(temp, scaleType){
+
+    if (scaleType === 'C'){
+        return (temp * 9/5) + 32
+    } else if (scaleType === 'F'){
+        return (temp - 32) * 5/9
+    }
+
+}
+
 console.log('Exercise 8 Result:', convertTemperature(32, "C"));
 
 /*
