@@ -255,7 +255,7 @@ Complete the exercise in the space below:
 */
 
 function createUsername(firstName, lastName){
-    return firstName.slice(0,3) + lastName.slice(0,3) + firstName.length + lastName.length
+    return firstName.slice(0,3) + lastName.slice(0,3) + (firstName.length + lastName.length)
 
 }
 
@@ -265,7 +265,7 @@ console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
 /*
 Exercise 12: numArgs()
 
-Challenge yourself with numArgs. 
+Challenge yourself with numArgs.
 This function should return the count of arguments passed to it when called.
 
 Complete the exercise in the space below:
