@@ -254,6 +254,11 @@ Example: createUsername('Samantha', 'Green') should return 'SamGre12'.
 Complete the exercise in the space below:
 */
 
+function createUsername(firstName, lastName){
+    return firstName.slice(0,3) + lastName.slice(0,3) + firstName.length + lastName.length
+
+}
+
 console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
 
 
