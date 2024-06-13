@@ -18,7 +18,6 @@ const maxOfTwoNumbers = (x, y) => {
   
   console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
 
-  
 /*
 Exercise 2: isAdult()
 
@@ -38,8 +37,6 @@ function isAdult(age){
     }
 }
 
-
-
 console.log('Exercise 2 Result:', isAdult(21));
 
 /*
@@ -55,8 +52,6 @@ Example: isCharAVowel('a') should return true.
 Complete the exercise in the space below:
 */
 
-
-
 console.log('Exercise 3 Result:', isCharAVowel("a"));
 
 /*
@@ -70,8 +65,6 @@ should return 'johnsmith@example.com'.
 
 Complete the exercise in the space below:
 */
-
-
 
 console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
@@ -88,8 +81,6 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 Complete the exercise in the space below:
 */
 
-
-
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 
 /*
@@ -102,8 +93,6 @@ Example: maxOfThree(17, 4, 9) should return 17.
 
 Complete the exercise in the space below:
 */
-
-
 
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
@@ -118,8 +107,6 @@ Example: calculateTip(50, 20) should return 10.
 
 Complete the exercise in the space below:
 */
-
-
 
 console.log('Exercise 7 Result:', calculateTip(50, 20));
 
@@ -136,8 +123,6 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 
 Complete the exercise in the space below:
 */
-
-
 
 console.log('Exercise 8 Result:', convertTemperature(32, "C"));
 
@@ -157,8 +142,6 @@ Example: basicCalculator(10, 5, 'subtract') should return 5.
 Complete the exercise in the space below:
 */
 
-
-
 console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
 
 
@@ -176,8 +159,6 @@ Example: calculateGrade(100) should return A.
 
 Complete the exercise in the space below:
 */
-
-
 
 console.log('Exercise 10 Result:', calculateGrade(85));
 
@@ -198,8 +179,6 @@ Example: createUsername('Samantha', 'Green') should return 'SamGre12'.
 Complete the exercise in the space below:
 */
 
-
-
 console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
 
 
@@ -211,7 +190,5 @@ This function should return the count of arguments passed to it when called.
 
 Complete the exercise in the space below:
 */
-
-
 
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
