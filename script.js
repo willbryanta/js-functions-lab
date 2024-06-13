@@ -30,7 +30,7 @@ Complete the exercise in the space below:
 */
 
 function isAdult(age){
-    if(age >= 18){
+    if (age >= 18){
         return 'Adult'
     } else {
         return 'Minor'
@@ -52,6 +52,14 @@ Example: isCharAVowel('a') should return true.
 Complete the exercise in the space below:
 */
 
+function isCharAVowel(char){
+    if (char === 'a' || char === 'A' || char === 'e' || char === 'E' || char === 'i' || char === 'I' || char === 'o' || char === 'O' || char === 'u' || char === 'U'){
+        return true
+    } else {
+        return false
+    }
+}
+
 console.log('Exercise 3 Result:', isCharAVowel("a"));
 
 /*
@@ -65,6 +73,10 @@ should return 'johnsmith@example.com'.
 
 Complete the exercise in the space below:
 */
+
+function generateEmail(name, domain){
+    return name + '@' + domain
+}
 
 console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
@@ -81,6 +93,17 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 Complete the exercise in the space below:
 */
 
+function greetUser(name, timeOfDay){
+
+    if (timeOfDay === 'morning'){
+        return 'Good morning, ' + name + '!'
+    } else if (timeOfDay === 'afternoon'){
+        return 'Good afternoon, ' + name + '!'
+    } else {
+        return 'Good evening ' + name + '!'
+    }
+}
+
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 
 /*
@@ -93,6 +116,16 @@ Example: maxOfThree(17, 4, 9) should return 17.
 
 Complete the exercise in the space below:
 */
+
+function maxOfThree(num1, num2, num3){
+    if (num1 > num2 && num1 > num3){
+        return num1
+    } else if (num2 > num1 && num2 > num3){
+        return num2
+    } else {
+        return num3
+    }
+}
 
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
